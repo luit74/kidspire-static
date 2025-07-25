@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 
 const Contact = () => {
@@ -8,14 +9,13 @@ const Contact = () => {
       <div className="container grid grid-two-cols contact-box">
         {/* Contact Content */}
         <div className="contact-content">
-          <h2 className="contact-title">
-            Let's revolutionize the way you Study
-          </h2>
+          <h2 className="contact-title">Let&apos;s revolutionize the way you Study</h2>
+
           <p>Join our Free bootcamps to know us better</p>
           <div className="btn">
-            <a href="/">
-              START NOW <FaArrowRight />
-            </a>
+            <Link href="/" className="btn-link">
+              START NOW <i className="fa-solid fa-arrow-right"></i>
+            </Link>
           </div>
         </div>
 

@@ -18,8 +18,9 @@ export default function Home() {
         <div className="container grid grid-two-cols contact-box">
           <div className="contact-content">
             <h2 className="contact-title">
-              Let's revolutionize the way you Study
+              Let&apos;s revolutionize the way you Study
             </h2>
+
             <p>Join our Free bootcamps to know us better</p>
             <div className="btn">
               <a href="/">
@@ -28,7 +29,13 @@ export default function Home() {
             </div>
           </div>
           <div className="contact-image">
-            <img src="./audio-editing.png" alt="Audio Editing Icon" />
+            <Image
+              src="/audio-editing.png"
+              alt="Audio Editing Icon"
+              width={400}
+              height={400}
+              priority
+            />
           </div>
         </div>
       </div>
