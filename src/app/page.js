@@ -4,6 +4,7 @@ import About from "./about/page";
 import CourseSection from "@/components/CourseSection";
 import Hero from "@/components/Hero";
 import WhyChooseUs from "@/components/Why";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,9 +24,9 @@ export default function Home() {
 
             <p>Join our Free bootcamps to know us better</p>
             <div className="btn">
-              <a href="/">
+              <Link href="/">
                 START NOW <i className="fa-solid fa-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="contact-image">

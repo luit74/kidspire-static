@@ -1,4 +1,5 @@
 // src/components/Footer.js
+import Link from "next/link";
 import { FaFacebook, FaInstagram, FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
@@ -8,21 +9,21 @@ const Footer = () => {
         {/* Brand Section */}
         <div className="footer-1-div">
           <div className="brand-logo">
-            <a href="/" className="footer-subheading">
+            <Link href="/" className="footer-subheading">
               Kidspire
-            </a>
+            </Link>
           </div>
           <p>Let's revolutionize learning with Kidspire</p>
           <div className="social-footer-icons">
-            <a href="#">
+            <Link href="#">
               <FaFacebook />
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <FaInstagram />
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="#">
               <FaDiscord />
-            </a>
+            </Link>
           </div>
         </div>
 
